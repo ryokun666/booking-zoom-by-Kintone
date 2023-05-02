@@ -37,6 +37,6 @@ app.post("/webhook", async (req, res) => {
   res.sendStatus(200);
 });
 
-app.listen(port, "192.168.0.65", () => {
-  console.log(`Server is running at http://192.168.0.65:${port}`);
+app.listen(port, () => {
+  console.log(`Server is running at ${port}`);
 });
