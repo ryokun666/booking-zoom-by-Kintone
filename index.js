@@ -7,31 +7,46 @@ const port = 3003;
 
 require("dotenv").config();
 
-// const env = process.env;
-// const URL = env.URL;
-// const API_TOKEN = env.API_TOKEN;
-
-// console.log("わわわわ")
-// console.log(URL);
-// console.log(API_TOKEN);
-// console.log("あああああ")
-// console.log(process.env.URL);
-// console.log(process.env.API_TOKEN);
-
-const URL = "https://dwp33.cybozu.com/k/v1/records.json?app=25&id=100";
+const URL = "https://dwp33.cybozu.com/k/v1/records.json";
 const API_TOKEN = "gn5iRmkA2ENCmNua99k7GF1ZYjXYtFj6AGF8sT5g";
 
 // ミドルウェアを追加して、JSON形式のリクエストボディを解析できるようにします。
 app.use(bodyParser.json());
 
 async function getKintone(url, apiToken) {
-  const headers = { "X-Cybozu-API-Token": apiToken };
+  const headers = {
+    "X-Cybozu-API-Token": apiToken,
+  };
+  const params = {
+    app: 25,
+    id: 100,
+    query: "limit 500",
+  };
   try {
-    const response = await axios.get(url, { headers });
+    const response = await axios.get(url, { headers, params });
+    getZoomData(response.data);
     return response;
   } catch (error) {
     console.error(error);
   }
+}
+
+function getZoomData(data) {
+  try {
+    // "Zoomアカウント" の "value" を取得
+    const zoomAccountValue = data.records[0]["Zoomアカウント"].value;
+
+    if (zoomAccountValue) {
+      getUserData(data);
+    }
+    return;
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+function getUserData(data) {
+  console.log("うぇえええええい！！！");
 }
 
 app.get("/", async (req, res) => {
@@ -41,8 +56,6 @@ app.get("/", async (req, res) => {
 
 app.post("/webhook", async (req, res) => {
   // レコード更新時の処理をここに記述します
-  console.log("Webhook received");
-  console.log(req);
 
   const response = await getKintone(URL, API_TOKEN);
   console.log(response.data);
@@ -51,5 +64,5 @@ app.post("/webhook", async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server is running at ${port}`);
+  console.log(`サーバー起動🚀：${port}`);
 });
