@@ -3,10 +3,13 @@ const axios = require("axios");
 const bodyParser = require("body-parser");
 
 const app = express();
-const port = 3000;
+const port = 3003;
 
-// const URL = "https://dwp33.cybozu.com/k/v1/records.json?app=25&id=100";
-// const API_TOKEN = "gn5iRmkA2ENCmNua99k7GF1ZYjXYtFj6AGF8sT5g";
+require("dotenv").config();
+
+const env = process.env;
+const URL = env.URL;
+const API_TOKEN = env.API_TOKEN;
 
 // ミドルウェアを追加して、JSON形式のリクエストボディを解析できるようにします。
 app.use(bodyParser.json());
