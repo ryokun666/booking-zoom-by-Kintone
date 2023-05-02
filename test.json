@@ -1,0 +1,3877 @@
+{
+  "records": [
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-25T05:15:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18577" },
+      "行動区分": { "type": "DROP_DOWN", "value": "会議" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-25T04:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "148", "name": "石垣　隼人" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "148", "name": "石垣　隼人" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [
+          { "code": "281", "name": "飯田　健" },
+          { "code": "236", "name": "藤田　裕貴" },
+          { "code": "291", "name": "石井　実乃莉" }
+        ]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "個別面談（石井実）   会議室1(石垣　隼人)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "2" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "個別面談（石井実）" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-02T00:16:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": "会議室1" },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-02T00:14:00Z" },
+      "$id": { "type": "__ID__", "value": "18577" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-08T05:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18576" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-08T05:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "201", "name": "杉浦　由里子" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "201", "name": "杉浦　由里子" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "201", "name": "杉浦　由里子" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "宛名入稿 mic21株式会社 2,000円OFFクーポンDM (杉浦　由里子)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "宛名入稿" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-02T00:11:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "2,000円OFFクーポンDM" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "mic21株式会社" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "37700" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-02T00:11:00Z" },
+      "$id": { "type": "__ID__", "value": "18576" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-02T08:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18575" },
+      "行動区分": { "type": "DROP_DOWN", "value": "納品・発送" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-02T08:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "239", "name": "市川　結美子" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "239", "name": "市川　結美子" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "239", "name": "市川　結美子" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "サーモス様名刺発送   (市川　結美子)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "サーモス様名刺発送" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T23:55:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T23:55:00Z" },
+      "$id": { "type": "__ID__", "value": "18575" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-02T08:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18574" },
+      "行動区分": { "type": "DROP_DOWN", "value": "内勤" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-02T06:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "239", "name": "市川　結美子" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "239", "name": "市川　結美子" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "239", "name": "市川　結美子" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "本部アパートDM修正・スケジュール対応   (市川　結美子)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "本部アパートDM修正・スケジュール対応"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T23:55:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T23:55:00Z" },
+      "$id": { "type": "__ID__", "value": "18574" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-08T06:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18573" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-08T05:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "142", "name": "宇井　崇" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "142", "name": "宇井　崇" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [
+          { "code": "142", "name": "宇井　崇" },
+          { "code": "307", "name": "坪谷　青香" }
+        ]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "リバスタ　第二Qとブランズマンションの打合せ   (宇井　崇)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "2" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "リバスタ　第二Qとブランズマンションの打合せ"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T23:55:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T23:55:00Z" },
+      "$id": { "type": "__ID__", "value": "18573" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-02T06:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18572" },
+      "行動区分": { "type": "DROP_DOWN", "value": "内勤" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-02T01:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "239", "name": "市川　結美子" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "239", "name": "市川　結美子" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "239", "name": "市川　結美子" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "サンプル封入作業   (市川　結美子)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "サンプル封入作業" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T23:55:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T23:55:00Z" },
+      "$id": { "type": "__ID__", "value": "18572" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T23:54:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18571" },
+      "行動区分": { "type": "DROP_DOWN", "value": "内勤" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T23:54:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "297", "name": "中島　健太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "297", "name": "中島　健太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "297", "name": "中島　健太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "封入バルク手伝い   (中島　健太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "封入バルク手伝い" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T23:54:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T23:54:00Z" },
+      "$id": { "type": "__ID__", "value": "18571" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-02T03:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18570" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-02T03:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "142", "name": "宇井　崇" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "142", "name": "宇井　崇" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "142", "name": "宇井　崇" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "那須印刷　オーロラエンボス等の紹介   (宇井　崇)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "2" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "那須印刷　オーロラエンボス等の紹介"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T23:56:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T23:53:00Z" },
+      "$id": { "type": "__ID__", "value": "18570" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-02T02:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18569" },
+      "行動区分": { "type": "DROP_DOWN", "value": "内勤" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-02T02:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "297", "name": "中島　健太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "297", "name": "中島　健太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "297", "name": "中島　健太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "麻布　文言等   (中島　健太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "麻布　文言等" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T23:53:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T23:53:00Z" },
+      "$id": { "type": "__ID__", "value": "18569" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T23:53:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18568" },
+      "行動区分": { "type": "DROP_DOWN", "value": "内勤" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T23:53:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "297", "name": "中島　健太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "297", "name": "中島　健太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "297", "name": "中島　健太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "公示地価　住宅地等調査   (中島　健太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "公示地価　住宅地等調査"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T23:53:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T23:53:00Z" },
+      "$id": { "type": "__ID__", "value": "18568" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T23:47:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18567" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T23:47:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "300", "name": "佐藤　亮太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "300", "name": "佐藤　亮太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "300", "name": "佐藤　亮太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "オリックス・クレジット　宛名データ連絡。   (佐藤　亮太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": ["終日"] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "オリックス・クレジット　宛名データ連絡。"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T23:47:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T23:47:00Z" },
+      "$id": { "type": "__ID__", "value": "18567" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-09T03:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18566" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-09T02:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "206", "name": "山口　剛" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "206", "name": "山口　剛" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "206", "name": "山口　剛" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "ヒアリング： 株式会社クレディセゾン カードファイナンス部 (山口　剛)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "ヒアリング：" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T23:42:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "カードファイナンス部" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "株式会社クレディセゾン"
+      },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "30890" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T23:42:00Z" },
+      "$id": { "type": "__ID__", "value": "18566" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-09T15:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18565" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-08T15:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "307", "name": "坪谷　青香" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "307", "name": "坪谷　青香" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "307", "name": "坪谷　青香" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "クリエイト横浜スケジュール提出〆   (坪谷　青香)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": ["終日"] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "クリエイト横浜スケジュール提出〆"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T23:42:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T23:42:00Z" },
+      "$id": { "type": "__ID__", "value": "18565" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-02T06:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18564" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-02T05:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "174", "name": "小嶋　伸太郎" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "174", "name": "小嶋　伸太郎" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "174", "name": "小嶋　伸太郎" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "日宣　くらしノベーションDM　請求書届け   (小嶋　伸太郎)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "日宣　くらしノベーションDM　請求書届け"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T23:01:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T23:01:00Z" },
+      "$id": { "type": "__ID__", "value": "18564" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-02T09:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18563" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-02T00:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "243", "name": "青木　泰我" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "243", "name": "青木　泰我" }
+      },
+      "メモ": {
+        "type": "MULTI_LINE_TEXT",
+        "value": "★金沢(本日校了)+静岡(15日校了)諸々　\n★三島堂宛名データ編集\n★遠藤さん相武見本手配\n・アイプラの伝票1本\n・CiSSサマフェス伝票1本\n・上半期・下半期目標管理シート\n・CiSSのWEB資料"
+      },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "243", "name": "青木　泰我" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "残タスク   (青木　泰我)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "残タスク" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T08:47:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T08:47:00Z" },
+      "$id": { "type": "__ID__", "value": "18563" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-31T05:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18562" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-31T01:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "302", "name": "北澤　ゆりか" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "302", "name": "北澤　ゆりか" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "302", "name": "北澤　ゆりか" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "💻スルガ発送   (北澤　ゆりか)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "💻スルガ発送" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T08:34:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T08:34:00Z" },
+      "$id": { "type": "__ID__", "value": "18562" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-26T05:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18561" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-26T01:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "302", "name": "北澤　ゆりか" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "302", "name": "北澤　ゆりか" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "302", "name": "北澤　ゆりか" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "💻スルガ下版   (北澤　ゆりか)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "💻スルガ下版" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T08:33:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T08:33:00Z" },
+      "$id": { "type": "__ID__", "value": "18561" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-25T05:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18560" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-25T01:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "302", "name": "北澤　ゆりか" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "302", "name": "北澤　ゆりか" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "302", "name": "北澤　ゆりか" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "💻スルガ校了   (北澤　ゆりか)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "💻スルガ校了" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T08:33:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T08:33:00Z" },
+      "$id": { "type": "__ID__", "value": "18560" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-24T05:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18559" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-24T01:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "302", "name": "北澤　ゆりか" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "302", "name": "北澤　ゆりか" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "302", "name": "北澤　ゆりか" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "💻スルガ最終校   (北澤　ゆりか)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "💻スルガ最終校" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T08:33:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T08:33:00Z" },
+      "$id": { "type": "__ID__", "value": "18559" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-22T05:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18558" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-22T01:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "302", "name": "北澤　ゆりか" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "302", "name": "北澤　ゆりか" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "302", "name": "北澤　ゆりか" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "💻スルガ2校   (北澤　ゆりか)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "2" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "💻スルガ2校" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T08:33:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T08:33:00Z" },
+      "$id": { "type": "__ID__", "value": "18558" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-15T05:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18557" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-15T01:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "302", "name": "北澤　ゆりか" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "302", "name": "北澤　ゆりか" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "302", "name": "北澤　ゆりか" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "💻スルガ初校   (北澤　ゆりか)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "2" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "💻スルガ初校" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T08:32:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T08:32:00Z" },
+      "$id": { "type": "__ID__", "value": "18557" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-02T03:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18556" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-02T02:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "302", "name": "北澤　ゆりか" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "302", "name": "北澤　ゆりか" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "302", "name": "北澤　ゆりか" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "スルガ打ち合わせ   (北澤　ゆりか)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "2" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "スルガ打ち合わせ" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T08:31:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T08:31:00Z" },
+      "$id": { "type": "__ID__", "value": "18556" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-02T08:17:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18555" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-02T08:17:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "300", "name": "佐藤　亮太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "300", "name": "佐藤　亮太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "300", "name": "佐藤　亮太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "オリックス・クレジット　利息還元キャンペーン校正   (佐藤　亮太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": ["終日"] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "オリックス・クレジット　利息還元キャンペーン校正"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T08:17:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T08:17:00Z" },
+      "$id": { "type": "__ID__", "value": "18555" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-08T01:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18554" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-08T00:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "238", "name": "出海　健太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "238", "name": "出海　健太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "238", "name": "出海　健太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "アリエル/印字校正アップ   (出海　健太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "アリエル/印字校正アップ"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T07:50:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T07:50:00Z" },
+      "$id": { "type": "__ID__", "value": "18554" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-02T08:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18553" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-02T07:50:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "238", "name": "出海　健太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "238", "name": "出海　健太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "238", "name": "出海　健太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "アリエル/印字校正アップ   (出海　健太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "3" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "アリエル/印字校正アップ"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T08:27:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T07:50:00Z" },
+      "$id": { "type": "__ID__", "value": "18553" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-11T09:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18551" },
+      "行動区分": { "type": "DROP_DOWN", "value": "会議" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-11T08:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "236", "name": "藤田　裕貴" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "236", "name": "藤田　裕貴" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [
+          { "code": "236", "name": "藤田　裕貴" },
+          { "code": "243", "name": "青木　泰我" }
+        ]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "面接   会議室2(藤田　裕貴)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "面接" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T07:34:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": "会議室2" },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T07:34:00Z" },
+      "$id": { "type": "__ID__", "value": "18551" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-11T05:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18550" },
+      "行動区分": { "type": "DROP_DOWN", "value": "会議" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-11T04:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "236", "name": "藤田　裕貴" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "236", "name": "藤田　裕貴" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [
+          { "code": "236", "name": "藤田　裕貴" },
+          { "code": "243", "name": "青木　泰我" }
+        ]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "面接   会議室2(藤田　裕貴)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "面接" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T07:34:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": "会議室2" },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T07:34:00Z" },
+      "$id": { "type": "__ID__", "value": "18550" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-15T05:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18549" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-15T02:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "243", "name": "青木　泰我" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": "アベンシス" },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "243", "name": "青木　泰我" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "243", "name": "青木　泰我" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "集金 有限会社三島堂印刷所 【刷り置き③】No.2257 特寸封入型 Nice Business Report (青木　泰我)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "2" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "集金" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T07:42:00Z" },
+      "案件名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "【刷り置き③】No.2257 特寸封入型 Nice Business Report"
+      },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "有限会社三島堂印刷所" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "37797" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T07:30:00Z" },
+      "$id": { "type": "__ID__", "value": "18549" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-11T15:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18548" },
+      "行動区分": { "type": "DROP_DOWN", "value": "内勤" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-07T15:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "286", "name": "大坪　由昌" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "286", "name": "大坪　由昌" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "286", "name": "大坪　由昌" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "会議資料   (大坪　由昌)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "2" },
+      "終日": { "type": "CHECK_BOX", "value": ["終日"] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "会議資料" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T07:30:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T07:30:00Z" },
+      "$id": { "type": "__ID__", "value": "18548" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-15T07:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18547" },
+      "行動区分": { "type": "DROP_DOWN", "value": null },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-15T07:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "286", "name": "大坪　由昌" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "286", "name": "大坪　由昌" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "286", "name": "大坪　由昌" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "平井さんデータ   (大坪　由昌)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "2" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "平井さんデータ" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T07:29:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T07:29:00Z" },
+      "$id": { "type": "__ID__", "value": "18547" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-26T06:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18546" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-26T02:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "243", "name": "青木　泰我" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": "アベンシス" },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "243", "name": "青木　泰我" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "243", "name": "青木　泰我" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "【校了後→三島堂】 有限会社三島堂印刷所 【刷り置き④】No.2258 特寸封入型 Nice Business Report (青木　泰我)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "【校了後→三島堂】" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T07:23:00Z" },
+      "案件名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "【刷り置き④】No.2258 特寸封入型 Nice Business Report"
+      },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "有限会社三島堂印刷所" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "37798" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T07:23:00Z" },
+      "$id": { "type": "__ID__", "value": "18546" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-09T06:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18545" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-09T02:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "243", "name": "青木　泰我" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": "アベンシス" },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "243", "name": "青木　泰我" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "243", "name": "青木　泰我" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "【校了後→三島堂】 有限会社三島堂印刷所 【刷り置き③】No.2257 特寸封入型 Nice Business Report (青木　泰我)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "【校了後→三島堂】" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T07:22:00Z" },
+      "案件名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "【刷り置き③】No.2257 特寸封入型 Nice Business Report"
+      },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "有限会社三島堂印刷所" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "37797" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T07:22:00Z" },
+      "$id": { "type": "__ID__", "value": "18545" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-12T15:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18544" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-11T15:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "291", "name": "石井　実乃莉" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "291", "name": "石井　実乃莉" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "291", "name": "石井　実乃莉" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "【仮】松尾   (石井　実乃莉)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": ["終日"] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "【仮】松尾" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T06:59:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T06:59:00Z" },
+      "$id": { "type": "__ID__", "value": "18544" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-15T03:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18543" },
+      "行動区分": { "type": "DROP_DOWN", "value": "会議" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-15T02:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "248", "name": "井上　大輔" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "248", "name": "井上　大輔" }
+      },
+      "メモ": {
+        "type": "MULTI_LINE_TEXT",
+        "value": "https://vzy44730.activegate-ss.jp/d/?31fb1e3bec948a76694aaf995aa0849bXFB"
+      },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [
+          { "code": "248", "name": "井上　大輔" },
+          { "code": "286", "name": "大坪　由昌" }
+        ]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "リスティングmtg   (井上　大輔)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "リスティングmtg" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T06:53:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T06:53:00Z" },
+      "$id": { "type": "__ID__", "value": "18543" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-02T08:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18542" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-02T00:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "920", "name": "工務共通" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": "フィット" },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "920", "name": "工務共通" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "920", "name": "工務共通" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "工務便   (工務共通)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "工務便" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T06:15:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T06:15:00Z" },
+      "$id": { "type": "__ID__", "value": "18542" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T02:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18541" },
+      "行動区分": { "type": "DROP_DOWN", "value": "完了" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T01:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "206", "name": "山口　剛" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "206", "name": "山口　剛" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "206", "name": "山口　剛" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "ヒアリング： 株式会社ハウスドゥ住宅販売 掘り起こしDM（2023年） (山口　剛)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "4" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "ヒアリング：" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T06:02:00Z" },
+      "案件名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "掘り起こしDM（2023年）"
+      },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "株式会社ハウスドゥ住宅販売"
+      },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "36994" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T05:58:00Z" },
+      "$id": { "type": "__ID__", "value": "18541" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-05T14:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18540" },
+      "行動区分": { "type": "DROP_DOWN", "value": "休み" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-02T15:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "238", "name": "出海　健太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "238", "name": "出海　健太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "238", "name": "出海　健太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "GW   (出海　健太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": ["終日"] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "GW" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T05:58:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T05:58:00Z" },
+      "$id": { "type": "__ID__", "value": "18540" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-15T06:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18539" },
+      "行動区分": { "type": "DROP_DOWN", "value": "会議" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-15T04:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "238", "name": "出海　健太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "238", "name": "出海　健太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "238", "name": "出海　健太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "【打診中】大平印刷oom   (出海　健太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "【打診中】大平印刷oom"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T05:57:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T05:57:00Z" },
+      "$id": { "type": "__ID__", "value": "18539" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-10T08:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18538" },
+      "行動区分": { "type": "DROP_DOWN", "value": "会議" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-10T06:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "238", "name": "出海　健太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "238", "name": "出海　健太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "238", "name": "出海　健太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "【打診中】大平印刷oom   (出海　健太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "【打診中】大平印刷oom"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T05:57:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T05:57:00Z" },
+      "$id": { "type": "__ID__", "value": "18538" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-08T03:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18537" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-08T01:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "062", "name": "牧野　峰央" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": "アベンシス" },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "062", "name": "牧野　峰央" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "062", "name": "牧野　峰央" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "ウィンザー引き取り ウインザー商事株式会社 9月顧客データ入力料 (牧野　峰央)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "2" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "ウィンザー引き取り" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T04:35:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "9月顧客データ入力料" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "ウインザー商事株式会社"
+      },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "36025" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T04:35:00Z" },
+      "$id": { "type": "__ID__", "value": "18537" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-08T07:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18536" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-08T06:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "062", "name": "牧野　峰央" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "062", "name": "牧野　峰央" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "062", "name": "牧野　峰央" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "下版 大和ハウスリアルティマネジメント株式会社 アルパーク広島　ポイント5倍DM (牧野　峰央)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "下版" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T04:34:00Z" },
+      "案件名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "アルパーク広島　ポイント5倍DM"
+      },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "大和ハウスリアルティマネジメント株式会社"
+      },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "37087" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T04:34:00Z" },
+      "$id": { "type": "__ID__", "value": "18536" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T06:32:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18535" },
+      "行動区分": { "type": "DROP_DOWN", "value": "完了" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T04:32:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "062", "name": "牧野　峰央" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "062", "name": "牧野　峰央" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "062", "name": "牧野　峰央" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "投函報告 パシックス株式会社 C神奈川北車点検DM6.1投函分 (牧野　峰央)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "2" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "投函報告" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T04:33:00Z" },
+      "案件名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "C神奈川北車点検DM6.1投函分"
+      },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "パシックス株式会社" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "37531" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T04:33:00Z" },
+      "$id": { "type": "__ID__", "value": "18535" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T06:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18534" },
+      "行動区分": { "type": "DROP_DOWN", "value": "完了" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T04:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "062", "name": "牧野　峰央" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "062", "name": "牧野　峰央" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "062", "name": "牧野　峰央" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "投函報告 パシックス株式会社 C神奈川北車点検DM6.1投函分 (牧野　峰央)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "2" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "投函報告" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T04:33:00Z" },
+      "案件名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "C神奈川北車点検DM6.1投函分"
+      },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "パシックス株式会社" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "37531" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T04:32:00Z" },
+      "$id": { "type": "__ID__", "value": "18534" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T06:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18533" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T05:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "920", "name": "工務共通" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "920", "name": "工務共通" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "920", "name": "工務共通" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "工務打合せ（フクシン様来社）   会議室2(工務共通)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "工務打合せ（フクシン様来社）"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T04:25:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": "会議室2" },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T04:25:00Z" },
+      "$id": { "type": "__ID__", "value": "18533" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-19T04:03:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18532" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-19T04:03:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "300", "name": "佐藤　亮太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "300", "name": "佐藤　亮太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "300", "name": "佐藤　亮太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "アドバンスDM　6月デザインヒアリング   (佐藤　亮太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": ["終日"] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "アドバンスDM　6月デザインヒアリング"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T04:04:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T04:04:00Z" },
+      "$id": { "type": "__ID__", "value": "18532" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-22T04:02:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18531" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-22T04:02:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "300", "name": "佐藤　亮太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "300", "name": "佐藤　亮太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "300", "name": "佐藤　亮太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "アドバンスDM　制作着手   (佐藤　亮太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": ["終日"] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "アドバンスDM　制作着手"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T04:02:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T04:02:00Z" },
+      "$id": { "type": "__ID__", "value": "18531" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T08:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18530" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T06:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "082", "name": "中村　俊隆" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": "ウイングロード" },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "082", "name": "中村　俊隆" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "082", "name": "中村　俊隆" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "チラシ校正戻り 子母美の杜霊園   (中村　俊隆)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "2" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "チラシ校正戻り 子母美の杜霊園"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T03:24:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T03:24:00Z" },
+      "$id": { "type": "__ID__", "value": "18530" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T06:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18529" },
+      "行動区分": { "type": "DROP_DOWN", "value": "内勤" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T05:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "082", "name": "中村　俊隆" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "082", "name": "中村　俊隆" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "082", "name": "中村　俊隆" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "売上処理   (中村　俊隆)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "売上処理" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T03:22:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T03:22:00Z" },
+      "$id": { "type": "__ID__", "value": "18529" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T05:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18528" },
+      "行動区分": { "type": "DROP_DOWN", "value": "内勤" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T04:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "082", "name": "中村　俊隆" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "082", "name": "中村　俊隆" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "082", "name": "中村　俊隆" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "制作手配 横浜市共済ガイド改訂版   (中村　俊隆)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "制作手配 横浜市共済ガイド改訂版"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T03:21:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T03:21:00Z" },
+      "$id": { "type": "__ID__", "value": "18528" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T03:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18527" },
+      "行動区分": { "type": "DROP_DOWN", "value": "内勤" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T00:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "082", "name": "中村　俊隆" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "082", "name": "中村　俊隆" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "082", "name": "中村　俊隆" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "作業手配、下版 ルークス簡易パンフ   (中村　俊隆)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "作業手配、下版 ルークス簡易パンフ"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T03:19:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T03:19:00Z" },
+      "$id": { "type": "__ID__", "value": "18527" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-02T01:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18526" },
+      "行動区分": { "type": "DROP_DOWN", "value": "会議" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-02T00:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "206", "name": "山口　剛" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "142", "name": "宇井　崇" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [
+          { "code": "142", "name": "宇井　崇" },
+          { "code": "041", "name": "松田　浩司" },
+          { "code": "206", "name": "山口　剛" },
+          { "code": "201", "name": "杉浦　由里子" },
+          { "code": "280", "name": "松澤　彩香" },
+          { "code": "302", "name": "北澤　ゆりか" },
+          { "code": "307", "name": "坪谷　青香" }
+        ]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "3G　打合せ   会議室2(宇井　崇)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "2" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "3G　打合せ" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T07:42:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": "会議室2" },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T02:37:00Z" },
+      "$id": { "type": "__ID__", "value": "18526" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-06T08:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18525" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-06T03:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "062", "name": "牧野　峰央" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "062", "name": "牧野　峰央" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "062", "name": "牧野　峰央" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "コクーン   (牧野　峰央)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "コクーン" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T02:32:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T02:32:00Z" },
+      "$id": { "type": "__ID__", "value": "18525" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T05:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18524" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T04:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "950", "name": "Ｄソリューション共通" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "950", "name": "Ｄソリューション共通" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "950", "name": "Ｄソリューション共通" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "Ｄソリュ会議   会議室2(Ｄソリューション共通)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "Ｄソリュ会議" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T01:28:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": "会議室2" },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T01:28:00Z" },
+      "$id": { "type": "__ID__", "value": "18524" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-10T07:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18523" },
+      "行動区分": { "type": "DROP_DOWN", "value": "会議" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-10T06:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "300", "name": "佐藤　亮太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "300", "name": "佐藤　亮太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "300", "name": "佐藤　亮太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "パイ・アール　ZOOM　   会議室2(佐藤　亮太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": "Zoom1（営業）" },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "2" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "パイ・アール　ZOOM　"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T02:42:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": "会議室2" },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T00:34:00Z" },
+      "$id": { "type": "__ID__", "value": "18523" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T08:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18522" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T03:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "281", "name": "飯田　健" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "281", "name": "飯田　健" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "281", "name": "飯田　健" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "サントリーM＆C様、ビナウオーク様   (飯田　健)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "サントリーM＆C様、ビナウオーク様"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T00:08:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T00:08:00Z" },
+      "$id": { "type": "__ID__", "value": "18522" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-02T08:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18521" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T00:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "248", "name": "井上　大輔" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "248", "name": "井上　大輔" }
+      },
+      "メモ": {
+        "type": "MULTI_LINE_TEXT",
+        "value": "------------------------------------\nWEB関連\n・リスティング広告 校正作業　メディアハウス様へ相談中\n🤡・リニューアルサイトの『人を動かすアイデアがある』のボディコピー考案「企画から発送までできると（企画会社と思われない）わかるように」\n🤡・サイトリニューアルのTOP　コピーの方向性は決定。　大貫さん金子さんにTOPコンテンツとメニューバー内容共有←済、飯田さん確認←済　　TOPイメージを作り飯田さん石垣さんへ報告←4/3　中島さんへ報告←4/13 11:00～の予定がリスケ（日程未定）←飯田さんと石垣さんのみで対応する事に。お二人への説明を4/17の14:30より←4/20に飯田さん石垣さんが確認済「企画から発送までできると（企画会社と思われない）わかるように」→メインコピー（人を動かすアイデアがある）の下のボディコピーに追記　でも発送で終わるとも思われたくない。\n🤡・リスティング広告 修正原稿作成\n🤡・リスティング広告 修正内容共有＠大貫さん・金子さん　←4/11済\n🤡・採用ページ用画像（動画切り抜き）\n🤡コラム　システム事例（急ぎ！）3/16公開分\n🤡・アッチLP作成　→MHにてリンク先差替え待ち\n🤡・WEBリニューアル外注見積り（クリプトスタンダードhttps:/www.studio-clipto.jp/・株式会社ウェブ企画パートナーズhttps://wk-partners.co.jp/homepage/・ウェブステージhttps://www.w-stage.jp/）\n🤡・ファイナルLP（校正原稿作成中[小川]）\n🤡・エンボスLP（WF作成中[小川]）　※ファイナルLP原稿をDRへ共有後、着手。\n🤡・エンボスLPの®︎マークについて小川に連絡\n🤡・サイトリニューアル/トップページ案（2/13森江済、2/16小川済・鈴木済）\n🤡・リスティング広告（出稿準備中[井上]）\n🤡・コラム044を2/16に公開　（048まで完成済なので順次着手[鈴木]）\n🤡・MHにIPアドレス保留の連絡\n🐢◆・デジタルソリューション　スタンプラリーLPバナー\n🐢◆・デジタルソリューション　デジタル抽選LPバナー\n🐢◆・デジタルソリューション　コラム046にリンクするバナー\n🐢◆・事例ページのコラムTOPにリンクするバナー\n🐢◆・ファイナルLP 事例原稿（ユーザーボイス収集[小川]）　※2/20までに回答\n🐢◆・スタンプラリー体験版ページ修正（3/3初校）\n🐢●・抽選券LP\n🐢■・エンボスLP\n●■・コラム関連\n\n制作物\n🤡・展示会ブースについて　平井さんに共有4/25＿13：30に来社\n🤡・展示会招待状DM企画←有田さんに確認中（4/19に見本お渡し済）4/19にOKとの回答　←封入物の形を変更4/20に確認用資料をガファーレンへ発送 回答待ち\n🤡・↑ガファーレンからの回答が届き次第、松田さんに台紙データ作成依頼\n🤡・展示会招待状DMの伝票作成＆クリエイティブオーダー作成\n🤡・展示会招待状DMのデザイン原稿を作成し、デザイン室へ共有（校了は5月31日）\n❌・ビッグサイトのアイソメトリック作成\n🤡・展示会DMの宛名リストを営業へ指示（GW明けに共有　5月30日まで）\n🤡・展示会DMのスケジュール作成＆工務に共有\n・展示会DMのOnetoOnelog測定依頼表作成\n・展示会招待券のURLをRX JAPANからもらう（5月中予定）\n・バーチャルブース作成（実際の展示ブースとは異なってOK）\n・平井さんよりブースのレイアウトが決定したら、\n　　展示会ブースのアイソメトリック作成\n　　展示会ブースのデザイン原稿を作成＆クリエイティブオーダー\n　　展示会DMのチケットと引き換えるノベルティ考える（ブースの予算確定後）←販促水へ問い合わせ済4/21\n\n・暑中見舞いアイソメトリック作成\n・暑中見舞いの伝票作成＆クリエイティブオーダー作成\n・暑中見舞いのデザイン原稿を作成し、デザイン室へ共有\n🤡・暑中見舞いの宛名リストを営業へ指示（5月1日にキントーン上に指示　期限6月8日まで）\n\n🤡・次回展示ブース企画　レイアウト・掲載内容の考案2コマ（縦5.4×横6ｍ）\n🤡・暑中見舞い　AR or アイソメトリックにて決定　4/7までに森江くんの試用データ作成　確認後メインテーマ決定\n🤡・ガリバーDM企画書\n🤡・展示ブース校正（事例パネル2校確認済　三口産業の画像が入り次第、中島さんに共有＆平井さんにデータ送付しパース作成依頼　←3/6済　　中島さんに2回目報告あり←3/15飯田さんか代行し済　　メイン壁面以外のデータを平井さんへ入稿←3/17の9時18分頃済　　動画のサムネイルを3/22までに小林さんへ共有しブース校了←3/22済　　メイン壁面データを平井さんへデータ入稿←3/22済）\n🤡・展示ブース用の動画コンテンツ（サンプルinメールの紹介動画）作成\n🤡・展示会用エンボス　ハレパネ作成\n🤡・展示会告知バナー・御礼バナー作成　←3/27済　鈴木さんに依頼済\n🤡・エンボス見本帳（下版　3/9済）\n🤡・エンボス比較パネル　指示書←3/9済　　3/14下版済\n🤡・展示会用　エンボス比較パネル（UVエンボス・オーロラエンボス・エンボス無し）（色校データ校了　色校下版日を山手から共有待ち）\n🤡・展示会用　巨大DMパネル（ホワイトDM＝サンプルinメールをA4からA2に）（色校データ校了　色校下版日を山手から共有待ち）\n🤡・エンボス見本帳校正（3/3色校正、3/6朝一で確認。飯田さんにパターンAでOKか確認←3/6_14時頃済　/　伝票をパターンCからAに修正し山手に報告←3/6_14時頃済　/　中島さんに確認←3/6_16時頃済　）\n🤡◆・OnetoOnelogリーフ（3/3色校下版　3/7校了　3/14下版）\n🤡◆・WEBContentsMenu（3/3色校下版　3/7校了　3/14下版）\n🤡・上記2種の伝票作成、色校スケジュール確認（山手には連絡済）\n🤡・DM大賞書籍校正\n🤡・展示会ブース　コピー/掲載内容の決定　※壁面サイズ確定後　※3/22までに校了\n🤡・エンボス見本帳（色校2回目→2/27AM10時までに下版）\n🤡・スタンプラリービッグバナー（校正確認[井上]）\n🤡・エンボス見本帳（色校1回目[井上]）\n\nその他\n🤡・展示会リスト作成 重複不備精査\n🤡・展示会リスト営業へ共有\n🤡・展示会リスト営業へリマインド←4/24済\n🤡・新入社員研修　資料作成\n❌・SNS企画案（2名よりアイデア待ち[小川/森江]）\n🤡・きかくのきほんのき2023年度版 製本\n🤡・きかくのきほんのき2023年度版 作成　←日本の広告費のデータを修正\n🤡・杉山に大東建託案件の製袋代・フィルム代確認　3/10にクライアントへ御見積書提出済　　返事待ち\n🤡・大東建託　仕様書作成　3/10送付済\n🤡・大東建託　見本作成\n🤡・DM大賞が理由で新規獲得した企業の担当に連絡　4月に訪問・同行　日程調整これから\n🤡・動画制作会社探す　価格知りたい（Crevo株式会社　マーケティング部　前田 有理様より返答待ち　3/8AM中に見積もり届く予定）\n🤡・新規お問い合わせ一覧　アプリ内に登録項目を追加し完了（大坪さん）\n🤡・糊トナー価格設定\n🤡・Amazonの領収書出力"
+      },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "248", "name": "井上　大輔" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "今週のタスク   (井上　大輔)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "5" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "今週のタスク" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T23:49:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T00:05:00Z" },
+      "$id": { "type": "__ID__", "value": "18521" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T00:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18520" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T00:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "238", "name": "出海　健太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "238", "name": "出海　健太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "238", "name": "出海　健太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "スケジュール提出 株式会社横浜リテラ 新型アルファード・ヴェルファイア店頭発表会告知ＤＭ (出海　健太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "スケジュール提出" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T00:04:00Z" },
+      "案件名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "新型アルファード・ヴェルファイア店頭発表会告知ＤＭ"
+      },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "株式会社横浜リテラ" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "37636" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T00:04:00Z" },
+      "$id": { "type": "__ID__", "value": "18520" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T08:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18519" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T08:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "238", "name": "出海　健太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "238", "name": "出海　健太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "238", "name": "出海　健太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "スケジュール提出 株式会社千葉印刷 赤ちゃん本舗「シリアルNo.入りA4チラシ」（24万部） (出海　健太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "スケジュール提出" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T00:04:00Z" },
+      "案件名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "赤ちゃん本舗「シリアルNo.入りA4チラシ」（24万部）"
+      },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "株式会社千葉印刷" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "37663" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-05-01T00:04:00Z" },
+      "$id": { "type": "__ID__", "value": "18519" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T08:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18518" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T08:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "238", "name": "出海　健太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "238", "name": "出海　健太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "238", "name": "出海　健太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "伝票切る 株式会社パートナーズ ストックDM（5月作成） (出海　健太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "2" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "伝票切る" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-30T23:59:00Z" },
+      "案件名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "ストックDM（5月作成）"
+      },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "株式会社パートナーズ" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "37560" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-30T23:59:00Z" },
+      "$id": { "type": "__ID__", "value": "18518" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-04-30T23:59:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18517" },
+      "行動区分": { "type": "DROP_DOWN", "value": "内勤" },
+      "開始日時": { "type": "DATETIME", "value": "2023-04-30T23:59:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "297", "name": "中島　健太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "297", "name": "中島　健太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "297", "name": "中島　健太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "個人情報削除報告   (中島　健太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "個人情報削除報告" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-30T23:59:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-30T23:59:00Z" },
+      "$id": { "type": "__ID__", "value": "18517" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-04-30T23:58:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18516" },
+      "行動区分": { "type": "DROP_DOWN", "value": "内勤" },
+      "開始日時": { "type": "DATETIME", "value": "2023-04-30T23:58:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "297", "name": "中島　健太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "297", "name": "中島　健太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "297", "name": "中島　健太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "麻布　校正   (中島　健太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "麻布　校正" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-30T23:58:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-30T23:58:00Z" },
+      "$id": { "type": "__ID__", "value": "18516" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T23:46:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18515" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-04-30T23:46:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "300", "name": "佐藤　亮太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "300", "name": "佐藤　亮太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "300", "name": "佐藤　亮太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "オリックス・クレジットシステム移行のご案内の見積り作成&提出   (佐藤　亮太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "3" },
+      "終日": { "type": "CHECK_BOX", "value": ["終日"] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "オリックス・クレジットシステム移行のご案内の見積り作成&提出"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T08:23:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-30T23:46:00Z" },
+      "$id": { "type": "__ID__", "value": "18515" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T23:45:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18514" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-04-30T23:45:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "300", "name": "佐藤　亮太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "300", "name": "佐藤　亮太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "300", "name": "佐藤　亮太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "パイ・アール　ラフ作成   (佐藤　亮太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": ["終日"] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "パイ・アール　ラフ作成"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-30T23:45:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-30T23:45:00Z" },
+      "$id": { "type": "__ID__", "value": "18514" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-04-30T23:45:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18513" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-04-30T23:45:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "300", "name": "佐藤　亮太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "300", "name": "佐藤　亮太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "300", "name": "佐藤　亮太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "口座振替キャンペーン　精算御見積書   (佐藤　亮太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": ["終日"] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "口座振替キャンペーン　精算御見積書"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-30T23:45:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-30T23:45:00Z" },
+      "$id": { "type": "__ID__", "value": "18513" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-03T08:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18512" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-03T06:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "062", "name": "牧野　峰央" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "062", "name": "牧野　峰央" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "062", "name": "牧野　峰央" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "ビナウォーク   (牧野　峰央)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "ビナウォーク" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-30T23:37:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-30T23:37:00Z" },
+      "$id": { "type": "__ID__", "value": "18512" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T04:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18511" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T04:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "206", "name": "山口　剛" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "206", "name": "山口　剛" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "206", "name": "山口　剛" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "ヒアリング： 住信SBIネット銀行株式会社 キャッシュバックキャンペーンDM（2023年3月） (山口　剛)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "ヒアリング：" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-30T22:39:00Z" },
+      "案件名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "キャッシュバックキャンペーンDM（2023年3月）"
+      },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "住信SBIネット銀行株式会社"
+      },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "37051" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-30T22:39:00Z" },
+      "$id": { "type": "__ID__", "value": "18511" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-02T04:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18510" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-02T04:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "206", "name": "山口　剛" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "206", "name": "山口　剛" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "206", "name": "山口　剛" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "効果チェック： 株式会社増田屋 2023年春DM (山口　剛)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "効果チェック：" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-30T22:37:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "2023年春DM" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "株式会社増田屋" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "36744" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-30T22:37:00Z" },
+      "$id": { "type": "__ID__", "value": "18510" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-02T03:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18509" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-02T02:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "206", "name": "山口　剛" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "206", "name": "山口　剛" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "206", "name": "山口　剛" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "ヒアリング： 株式会社白洋舎 集配担当者変更お知らせDM (山口　剛)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "ヒアリング：" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-30T22:35:00Z" },
+      "案件名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "集配担当者変更お知らせDM"
+      },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "株式会社白洋舎" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "36177" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-30T22:35:00Z" },
+      "$id": { "type": "__ID__", "value": "18509" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T05:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18508" },
+      "行動区分": { "type": "DROP_DOWN", "value": "完了" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T04:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "238", "name": "出海　健太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "238", "name": "出海　健太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "238", "name": "出海　健太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "中央サトー/サンプル発送 中央サトー販売株式会社 挨拶状2023.5 (出海　健太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "3" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "中央サトー/サンプル発送"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T05:57:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "挨拶状2023.5" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "中央サトー販売株式会社"
+      },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "37796" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-30T22:24:00Z" },
+      "$id": { "type": "__ID__", "value": "18508" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T04:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18507" },
+      "行動区分": { "type": "DROP_DOWN", "value": "完了" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T03:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "238", "name": "出海　健太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "238", "name": "出海　健太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "238", "name": "出海　健太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "電話打ち合わせ 株式会社カンダハー カタログ2023/2024 (出海　健太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "3" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "電話打ち合わせ" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T04:54:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "カタログ2023/2024" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "株式会社カンダハー" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "37333" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-30T22:23:00Z" },
+      "$id": { "type": "__ID__", "value": "18507" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-06-18T06:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18506" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-06-18T04:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "148", "name": "石垣　隼人" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "148", "name": "石垣　隼人" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "148", "name": "石垣　隼人" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "理事会   (石垣　隼人)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "理事会" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-30T02:14:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-30T02:14:00Z" },
+      "$id": { "type": "__ID__", "value": "18506" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-21T03:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18505" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-21T01:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "148", "name": "石垣　隼人" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "148", "name": "石垣　隼人" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "148", "name": "石垣　隼人" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "理事会   (石垣　隼人)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "非表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "理事会" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-30T02:13:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-30T02:13:00Z" },
+      "$id": { "type": "__ID__", "value": "18505" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T08:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18504" },
+      "行動区分": { "type": "DROP_DOWN", "value": "内勤" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T08:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "239", "name": "市川　結美子" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "239", "name": "市川　結美子" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "239", "name": "市川　結美子" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "三井打ち合わせ   (市川　結美子)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "三井打ち合わせ" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T10:00:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T10:00:00Z" },
+      "$id": { "type": "__ID__", "value": "18504" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T07:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18503" },
+      "行動区分": { "type": "DROP_DOWN", "value": "内勤" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T06:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "239", "name": "市川　結美子" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "239", "name": "市川　結美子" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "239", "name": "市川　結美子" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "ミサワリフォーム提案考える   (市川　結美子)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "ミサワリフォーム提案考える"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T09:59:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T09:59:00Z" },
+      "$id": { "type": "__ID__", "value": "18503" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T06:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18502" },
+      "行動区分": { "type": "DROP_DOWN", "value": "内勤" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T04:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "239", "name": "市川　結美子" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "239", "name": "市川　結美子" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "239", "name": "市川　結美子" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "アパートDMなんとかする   (市川　結美子)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "アパートDMなんとかする"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T09:58:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T09:58:00Z" },
+      "$id": { "type": "__ID__", "value": "18502" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T03:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18501" },
+      "行動区分": { "type": "DROP_DOWN", "value": "内勤" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T01:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "239", "name": "市川　結美子" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "239", "name": "市川　結美子" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "239", "name": "市川　結美子" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "本町オフィスまとめる   (市川　結美子)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "本町オフィスまとめる"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T09:58:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T09:58:00Z" },
+      "$id": { "type": "__ID__", "value": "18501" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T01:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18500" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T00:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "239", "name": "市川　結美子" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "239", "name": "市川　結美子" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "239", "name": "市川　結美子" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "マルチオリメールPDF手配   (市川　結美子)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "マルチオリメールPDF手配"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T09:56:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T09:56:00Z" },
+      "$id": { "type": "__ID__", "value": "18500" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T00:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18499" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T00:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "239", "name": "市川　結美子" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "239", "name": "市川　結美子" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "239", "name": "市川　結美子" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "角2封筒手配   (市川　結美子)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "角2封筒手配" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T09:55:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T09:55:00Z" },
+      "$id": { "type": "__ID__", "value": "18499" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-15T05:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18498" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-15T04:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "297", "name": "中島　健太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "297", "name": "中島　健太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [
+          { "code": "297", "name": "中島　健太" },
+          { "code": "165", "name": "大島　義朗" }
+        ]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "府中　リハウス   (中島　健太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "府中　リハウス" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T09:50:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T09:50:00Z" },
+      "$id": { "type": "__ID__", "value": "18498" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-02T08:38:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18497" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-02T08:38:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "300", "name": "佐藤　亮太" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "300", "name": "佐藤　亮太" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "300", "name": "佐藤　亮太" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "目標管理シート   (佐藤　亮太)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "2" },
+      "終日": { "type": "CHECK_BOX", "value": ["終日"] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "目標管理シート" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T08:16:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T08:38:00Z" },
+      "$id": { "type": "__ID__", "value": "18497" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-02T08:23:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18496" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-02T08:23:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "307", "name": "坪谷　青香" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "307", "name": "坪谷　青香" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "307", "name": "坪谷　青香" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "杉山メディアサポート　見積もり〆   (坪谷　青香)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": ["終日"] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "杉山メディアサポート　見積もり〆"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T08:24:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T08:24:00Z" },
+      "$id": { "type": "__ID__", "value": "18496" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T08:23:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18495" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T08:23:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "307", "name": "坪谷　青香" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "307", "name": "坪谷　青香" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "307", "name": "坪谷　青香" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "リバブルスプレッドシート提出〆   (坪谷　青香)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "リバブルスプレッドシート提出〆"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T08:23:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T08:23:00Z" },
+      "$id": { "type": "__ID__", "value": "18495" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T02:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18494" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T01:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "174", "name": "小嶋　伸太郎" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "174", "name": "小嶋　伸太郎" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "174", "name": "小嶋　伸太郎" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "互省　機械用ラベル　仕様確認   (小嶋　伸太郎)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "互省　機械用ラベル　仕様確認"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T08:19:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T08:19:00Z" },
+      "$id": { "type": "__ID__", "value": "18494" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-02T08:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18493" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-02T07:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "174", "name": "小嶋　伸太郎" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "174", "name": "小嶋　伸太郎" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "174", "name": "小嶋　伸太郎" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "さわかみ投信　長期投資だより　校了、下版 さわかみ投信株式会社 長期投資だより　2023/04 (小嶋　伸太郎)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "さわかみ投信　長期投資だより　校了、下版"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T08:17:00Z" },
+      "案件名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "長期投資だより　2023/04"
+      },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "さわかみ投信株式会社" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "36583" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T08:17:00Z" },
+      "$id": { "type": "__ID__", "value": "18493" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-15T08:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18492" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-15T07:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "165", "name": "大島　義朗" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "165", "name": "大島　義朗" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [
+          { "code": "165", "name": "大島　義朗" },
+          { "code": "202", "name": "秋原　浩子" }
+        ]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "三井不動産リアルティ（霞が関）   (大島　義朗)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "三井不動産リアルティ（霞が関）"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T07:50:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T07:50:00Z" },
+      "$id": { "type": "__ID__", "value": "18492" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-12T08:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18491" },
+      "行動区分": { "type": "DROP_DOWN", "value": "出張" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-12T04:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "165", "name": "大島　義朗" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "165", "name": "大島　義朗" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [
+          { "code": "165", "name": "大島　義朗" },
+          { "code": "239", "name": "市川　結美子" }
+        ]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "三井不動産リアルティ（大阪本町オフィス） 三井不動産リアルティ株式会社　関西支店（ソリューション事業本部） 各オフィスDM（本町オフィス） (大島　義朗)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "三井不動産リアルティ（大阪本町オフィス）"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T07:45:00Z" },
+      "案件名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "各オフィスDM（本町オフィス）"
+      },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "三井不動産リアルティ株式会社　関西支店（ソリューション事業本部）"
+      },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "37588" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T07:45:00Z" },
+      "$id": { "type": "__ID__", "value": "18491" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T05:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18490" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T04:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "174", "name": "小嶋　伸太郎" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "174", "name": "小嶋　伸太郎" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "174", "name": "小嶋　伸太郎" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "師岡熊野神社　夏越DM　封入前搬入 師岡熊野神社 令和5年度　夏越の大祓い&七夕　返信封筒付きオリメール (小嶋　伸太郎)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "師岡熊野神社　夏越DM　封入前搬入"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T07:43:00Z" },
+      "案件名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "令和5年度　夏越の大祓い&七夕　返信封筒付きオリメール"
+      },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "師岡熊野神社" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "37552" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T07:43:00Z" },
+      "$id": { "type": "__ID__", "value": "18490" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-04-28T07:39:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18489" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-08T07:39:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "301", "name": "杉山　毅浩" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "301", "name": "杉山　毅浩" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "301", "name": "杉山　毅浩" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "見積り提出 静岡ガス株式会社 圧着ハガキDM (杉山　毅浩)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "3" },
+      "終日": { "type": "CHECK_BOX", "value": ["終日"] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "見積り提出" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T07:40:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "圧着ハガキDM" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "静岡ガス株式会社" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "37786" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T07:39:00Z" },
+      "$id": { "type": "__ID__", "value": "18489" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-08T07:24:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18488" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-08T07:24:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "206", "name": "山口　剛" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": "ヴィッツ" },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "206", "name": "山口　剛" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [
+          { "code": "206", "name": "山口　剛" },
+          { "code": "041", "name": "松田　浩司" }
+        ]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "履歴分発送(13,000部)について： 株式会社京都一の傳 2023年お中元DM (山口　剛)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "3" },
+      "終日": { "type": "CHECK_BOX", "value": ["終日"] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "履歴分発送(13,000部)について："
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T05:56:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "2023年お中元DM" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "株式会社京都一の傳" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "37326" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T07:26:00Z" },
+      "$id": { "type": "__ID__", "value": "18488" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-08T08:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18487" },
+      "行動区分": { "type": "DROP_DOWN", "value": "会議" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-08T07:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "236", "name": "藤田　裕貴" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "236", "name": "藤田　裕貴" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "280", "name": "松澤　彩香" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "面談   会議室2(藤田　裕貴)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "面談" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T07:25:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": "会議室2" },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T07:25:00Z" },
+      "$id": { "type": "__ID__", "value": "18487" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-04-28T08:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18486" },
+      "行動区分": { "type": "DROP_DOWN", "value": "来客" },
+      "開始日時": { "type": "DATETIME", "value": "2023-04-28T07:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "236", "name": "藤田　裕貴" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "236", "name": "藤田　裕貴" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "236", "name": "藤田　裕貴" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "大和証券   会議室1(藤田　裕貴)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "大和証券" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T07:23:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": "会議室1" },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T07:23:00Z" },
+      "$id": { "type": "__ID__", "value": "18486" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-12T07:05:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18485" },
+      "行動区分": { "type": "DROP_DOWN", "value": "納品・発送" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-12T07:05:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "247", "name": "池原　純子" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "247", "name": "池原　純子" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "247", "name": "池原　純子" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "5/15本機圧着見本　提出？ 株式会社日本政策金融公庫 【入札】本店DM　2023年度　5月 (池原　純子)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "5/15本機圧着見本　提出？"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T07:10:00Z" },
+      "案件名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "【入札】本店DM　2023年度　5月"
+      },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "株式会社日本政策金融公庫"
+      },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "36585" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T07:10:00Z" },
+      "$id": { "type": "__ID__", "value": "18485" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-02T07:09:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18484" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-02T07:09:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "306", "name": "本田　彩也香" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "306", "name": "本田　彩也香" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "306", "name": "本田　彩也香" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "【コードなし】できれば納品したい！ 株式会社しんきんカード オンライン入会チラシ〈修正〉 (本田　彩也香)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "【コードなし】できれば納品したい！"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T07:09:00Z" },
+      "案件名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "オンライン入会チラシ〈修正〉"
+      },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "株式会社しんきんカード"
+      },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "37750" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T07:09:00Z" },
+      "$id": { "type": "__ID__", "value": "18484" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-17T07:05:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18483" },
+      "行動区分": { "type": "DROP_DOWN", "value": "内勤" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-17T07:05:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "247", "name": "池原　純子" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "247", "name": "池原　純子" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "247", "name": "池原　純子" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "下版？ 株式会社日本政策金融公庫 【入札】本店DM　2023年度　5月 (池原　純子)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "下版？" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T07:08:00Z" },
+      "案件名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "【入札】本店DM　2023年度　5月"
+      },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "株式会社日本政策金融公庫"
+      },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "36585" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T07:08:00Z" },
+      "$id": { "type": "__ID__", "value": "18483" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-08T07:05:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18482" },
+      "行動区分": { "type": "DROP_DOWN", "value": "内勤" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-08T07:05:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "247", "name": "池原　純子" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "247", "name": "池原　純子" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "247", "name": "池原　純子" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "本機圧着見本　下版？ 株式会社日本政策金融公庫 【入札】本店DM　2023年度　5月 (池原　純子)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "本機圧着見本　下版？"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T07:07:00Z" },
+      "案件名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "【入札】本店DM　2023年度　5月"
+      },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "株式会社日本政策金融公庫"
+      },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "36585" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T07:07:00Z" },
+      "$id": { "type": "__ID__", "value": "18482" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-01T02:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18481" },
+      "行動区分": { "type": "DROP_DOWN", "value": "完了" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-01T02:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "307", "name": "坪谷　青香" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "307", "name": "坪谷　青香" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "307", "name": "坪谷　青香" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "クリエイト横浜　見本分納品   (坪谷　青香)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "2" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "クリエイト横浜　見本分納品"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-05-01T23:40:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T07:00:00Z" },
+      "$id": { "type": "__ID__", "value": "18481" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-10T07:00:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18479" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-10T06:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "148", "name": "石垣　隼人" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "306", "name": "本田　彩也香" }
+      },
+      "メモ": {
+        "type": "MULTI_LINE_TEXT",
+        "value": "いつもご依頼いただいている販促チームのまた違う部隊の方。\nうつみ様宛\n\nハガキより一回りくらい大きくて、圧着タイプ。\n送付先に応じて中面バリアブルできますかの話もしたい。\nどんな形状があるか見たい。"
+      },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [
+          { "code": "306", "name": "本田　彩也香" },
+          { "code": "148", "name": "石垣　隼人" },
+          { "code": "247", "name": "池原　純子" },
+          { "code": "291", "name": "石井　実乃莉" }
+        ]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "【常盤薬品様】新DM相談＠青山一丁目   (本田　彩也香)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "3" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "【常盤薬品様】新DM相談＠青山一丁目"
+      },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-30T23:59:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T05:10:00Z" },
+      "$id": { "type": "__ID__", "value": "18479" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-08T08:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18478" },
+      "行動区分": { "type": "DROP_DOWN", "value": "納品・発送" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-15T08:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "301", "name": "杉山　毅浩" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "301", "name": "杉山　毅浩" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "301", "name": "杉山　毅浩" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "投函 JFE コンフォーム株式会社 新築/保全DM 2023/05 (杉山　毅浩)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": ["終日"] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "投函" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T04:29:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "新築/保全DM 2023/05" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "JFE コンフォーム株式会社"
+      },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "37615" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T04:29:00Z" },
+      "$id": { "type": "__ID__", "value": "18478" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-05-08T08:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18477" },
+      "行動区分": { "type": "DROP_DOWN", "value": "ToDO" },
+      "開始日時": { "type": "DATETIME", "value": "2023-05-08T08:30:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "301", "name": "杉山　毅浩" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "301", "name": "杉山　毅浩" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "301", "name": "杉山　毅浩" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "下版 JFE コンフォーム株式会社 新築/保全DM 2023/05 (杉山　毅浩)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "2" },
+      "終日": { "type": "CHECK_BOX", "value": ["終日"] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "下版" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T04:29:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "新築/保全DM 2023/05" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "JFE コンフォーム株式会社"
+      },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "37615" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T04:28:00Z" },
+      "$id": { "type": "__ID__", "value": "18477" }
+    },
+    {
+      "終了日時": { "type": "DATETIME", "value": "2023-04-28T07:30:00Z" },
+      "レコード番号": { "type": "RECORD_NUMBER", "value": "18476" },
+      "行動区分": { "type": "DROP_DOWN", "value": "外出" },
+      "開始日時": { "type": "DATETIME", "value": "2023-04-28T07:00:00Z" },
+      "更新者": {
+        "type": "MODIFIER",
+        "value": { "code": "241", "name": "小川　典之" }
+      },
+      "車両": { "type": "DROP_DOWN", "value": null },
+      "作成者": {
+        "type": "CREATOR",
+        "value": { "code": "241", "name": "小川　典之" }
+      },
+      "メモ": { "type": "MULTI_LINE_TEXT", "value": "" },
+      "担当者": {
+        "type": "USER_SELECT",
+        "value": [{ "code": "241", "name": "小川　典之" }]
+      },
+      "表示用タイトル": {
+        "type": "SINGLE_LINE_TEXT",
+        "value": "恵比寿   (小川　典之)"
+      },
+      "Zoomアカウント": { "type": "DROP_DOWN", "value": null },
+      "表示形式": { "type": "DROP_DOWN", "value": "表示" },
+      "$revision": { "type": "__REVISION__", "value": "1" },
+      "終日": { "type": "CHECK_BOX", "value": [] },
+      "タイトル": { "type": "SINGLE_LINE_TEXT", "value": "恵比寿" },
+      "更新日時": { "type": "UPDATED_TIME", "value": "2023-04-28T03:39:00Z" },
+      "案件名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "会議室": { "type": "DROP_DOWN", "value": null },
+      "顧客名": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "案件コード": { "type": "SINGLE_LINE_TEXT", "value": "" },
+      "作成日時": { "type": "CREATED_TIME", "value": "2023-04-28T03:39:00Z" },
+      "$id": { "type": "__ID__", "value": "18476" }
+    }
+  ],
+  "totalCount": null
+}
