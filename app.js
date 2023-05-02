@@ -10,12 +10,16 @@ require("dotenv").config();
 // const env = process.env;
 // const URL = env.URL;
 // const API_TOKEN = env.API_TOKEN;
-console.log("わわわわ")
-console.log(URL);
-console.log(API_TOKEN);
-console.log("あああああ")
-console.log(process.env.URL);
-console.log(process.env.API_TOKEN);
+
+// console.log("わわわわ")
+// console.log(URL);
+// console.log(API_TOKEN);
+// console.log("あああああ")
+// console.log(process.env.URL);
+// console.log(process.env.API_TOKEN);
+
+const URL = "https://dwp33.cybozu.com/k/v1/records.json?app=25&id=100";
+const API_TOKEN = "gn5iRmkA2ENCmNua99k7GF1ZYjXYtFj6AGF8sT5g";
 
 // ミドルウェアを追加して、JSON形式のリクエストボディを解析できるようにします。
 app.use(bodyParser.json());
@@ -37,8 +41,8 @@ app.get("/", async (req, res) => {
 
 app.post("/webhook", async (req, res) => {
   // レコード更新時の処理をここに記述します
-    console.log("Webhook received");
-    console.log(req);
+  console.log("Webhook received");
+  console.log(req);
 
   const response = await getKintone(URL, API_TOKEN);
   console.log(response.data);
