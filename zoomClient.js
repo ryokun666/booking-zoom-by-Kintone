@@ -3,7 +3,7 @@ const jwt = require("jsonwebtoken");
 
 const userId = "r.morie@gulliver.co.jp";
 
-function generateToken() {
+function generateToken(apiKey, apiSecret) {
   const payload = {
     iss: apiKey,
     exp: new Date().getTime() + 5000,
@@ -14,7 +14,7 @@ function generateToken() {
 
 async function createZoomMeeting(apiKey, apiSecret, meetingConfigJson) {
   // JWTトークンを生成
-  const token = generateToken();
+  const token = generateToken(apiKey, apiSecret);
 
   const config = {
     headers: {
