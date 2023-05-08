@@ -168,14 +168,18 @@ app.get("/", async (req, res) => {
 });
 
 app.post("/webhook", async (req, res) => {
-  const response = await getKintone(KINTONE_API_URL, KINTONE_API_TOKEN);
-  if (response) {
-    res.send(response.data);
-    res.sendStatus(200);
-  } else {
-    res
-      .status(500)
-      .send("エラー: Kintone APIからデータを取得出来ませんでした。");
+  try {
+    const response = await getKintone(KINTONE_API_URL, KINTONE_API_TOKEN);
+    if (response) {
+      res.status(200).json(response.data);
+    } else {
+      res
+        .status(500)
+        .send("エラー: Kintone APIからデータを取得出来ませんでした。");
+    }
+  } catch (error) {
+    console.error(error);
+    res.status(500).send("エラー: サーバー内で問題が発生しました。");
   }
 });
 
