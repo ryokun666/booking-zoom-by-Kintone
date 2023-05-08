@@ -2,20 +2,18 @@ const express = require("express");
 const axios = require("axios");
 const bodyParser = require("body-parser");
 const { zonedTimeToUtc, utcToZonedTime, format } = require("date-fns-tz");
-const createZoomMeeting = require("./zoomClient");
+const jwt = require("jsonwebtoken");
 require("dotenv").config();
 
 const app = express();
 const port = 80;
 
-// Kintone用
 const KINTONE_API_URL = process.env.KINTONE_API_URL;
 const KINTONE_API_TOKEN = process.env.KINTONE_API_TOKEN;
-// ZOOM用
 const ZOOM_API_KEY = process.env.ZOOM_API_KEY;
 const ZOOM_API_SECRET = process.env.ZOOM_API_SECRET;
+const userId = "r.morie@gulliver.co.jp";
 
-// JSONファイル整形
 app.use(bodyParser.json());
 
 async function getKintone(url, apiToken) {
@@ -38,23 +36,16 @@ async function getKintone(url, apiToken) {
 
 function getZoomData(data) {
   try {
-    // "Zoomアカウント" の "value" を取得
     const zoomAccountValue = data.records[0]["Zoomアカウント"].value;
-
     if (!zoomAccountValue) {
-      console.log("KintoneカレンダーにZOOM予約情報はありませんでした。");
       return;
     }
-    // ZOOM会議情報がある場合は、ZOOM会議URLを発行する。
     getUserData(data);
-
-    return;
   } catch (error) {
     console.error(error);
   }
 }
 
-// ZOOM予約を入れたユーザーの情報を取得する。
 function getUserData(data) {
   const userName = data.records[0]["担当者"].value[0].name ?? "なし";
   const customerName = data.records[0]["顧客名"].value[0] ?? "お客";
@@ -72,17 +63,14 @@ function getUserData(data) {
   console.log("終了時間：" + bookingEndDate);
   console.log("-------------------------");
   const bookingData = {
-    userName, // 担当営業
-    customerName, // 打ち合わせ先
-    bookingStartDate, // 開始時間
-    bookingEndDate, // 終了時間
+    userName,
+    customerName,
+    bookingStartDate,
+    bookingEndDate,
   };
   bookingZoomMeeting(bookingStartDate, bookingEndDate, bookingData);
-
-  return;
 }
 
-// 終了時間と開始時間の差分を計算する
 function calculateDuration(start, end) {
   const startTime = new Date(start);
   const endTime = new Date(end);
@@ -99,26 +87,24 @@ async function bookingZoomMeeting(
   const duration = calculateDuration(bookingStartDate, bookingEndDate);
   const timeZone = "Asia/Tokyo";
 
-  try {
-    const meetingConfig = {
-      topic: `${bookingData.customerName}様お打ち合わせ(${bookingData.userName})`,
-      type: 2,
-      start_time: bookingStartDate,
-      duration: duration,
-      timezone: timeZone,
-      pre_schedule: true,
-    };
-    const meetingConfigJson = JSON.stringify(meetingConfig);
+  const meetingConfig = {
+    topic: `${bookingData.customerName}様お打ち合わせ(${bookingData.userName})`,
+    type: 2,
+    start_time: bookingStartDate,
+    duration: duration,
+    timezone: timeZone,
+  };
+  const meetingConfigJson = JSON.stringify(meetingConfig);
 
-    // ZOOM APIと連携する。
+  try {
     const meeting = await createZoomMeeting(
       ZOOM_API_KEY,
       ZOOM_API_SECRET,
       meetingConfigJson
     );
+
     console.log("トピック:", meeting.topic);
     console.log("開始時間:", meeting.start_time);
-    // console.log("終了時間:", bookingEndDate);
     console.log("会議時間:", duration + "分");
     console.log(
       "タイムゾーン:",
@@ -134,20 +120,14 @@ async function bookingZoomMeeting(
 }
 
 function convertUtcToJapanTimeDate(utcDateString) {
-  // 日本のタイムゾーンを指定
   const timeZone = "Asia/Tokyo";
-
-  // UTCの日付文字列を Date オブジェクトに変換
   const utcDate = zonedTimeToUtc(utcDateString, timeZone);
-  // Date オブジェクトを日本時間に変換
   const japanDate = utcToZonedTime(utcDate, timeZone);
 
-  // 日付を文字列にフォーマット
   const formattedDate = format(japanDate, "yyyy-MM-dd'T'HH:mm:ss", {
     timeZone: timeZone,
   });
 
-  // 文字列を Date オブジェクトに変換して返す
   return formattedDate;
 }
 
@@ -181,3 +161,35 @@ app.post("/webhook", async (req, res) => {
 app.listen(port, () => {
   console.log(`サーバー起動🚀：${port}`);
 });
+
+function generateToken(apiKey, apiSecret) {
+  const payload = {
+    iss: apiKey,
+    exp: new Date().getTime() + 60 * 1000,
+  };
+
+  return jwt.sign(payload, apiSecret);
+}
+
+async function createZoomMeeting(apiKey, apiSecret, meetingConfigJson) {
+  const token = generateToken(apiKey, apiSecret);
+
+  const config = {
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${token}`,
+    },
+  };
+
+  try {
+    const response = await axios.post(
+      `https://api.zoom.us/v2/users/${userId}/meetings`,
+      meetingConfigJson,
+      config
+    );
+    return response.data;
+  } catch (error) {
+    console.error("Error creating Zoom meeting:", error.response);
+    throw error;
+  }
+}
