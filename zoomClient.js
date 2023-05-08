@@ -1,23 +1,37 @@
 const axios = require("axios");
+const jwt = require("jsonwebtoken");
 
-async function createZoomMeeting(apiKey, apiSecret, meetingConfig) {
+const userId = "r.morie@gulliver.co.jp";
+
+function generateToken() {
+  const payload = {
+    iss: apiKey,
+    exp: new Date().getTime() + 5000,
+  };
+
+  return jwt.sign(payload, apiSecret);
+}
+
+async function createZoomMeeting(apiKey, apiSecret, meetingConfigJson) {
+  // JWTトークンを生成
+  const token = generateToken();
+
+  const config = {
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${token}`,
+    },
+  };
+
   try {
-    const zoomToken = require("./generateZoomToken")(apiKey, apiSecret);
-
     const response = await axios.post(
       "https://api.zoom.us/v2/users/me/meetings",
-      meetingConfig,
-      {
-        headers: {
-          Authorization: `Bearer ${zoomToken}`,
-          "Content-Type": "application/json",
-        },
-      }
+      meetingConfigJson,
+      config
     );
-
     return response.data;
   } catch (error) {
-    console.log("ZOOM API連携時にエラーが発生しました。");
+    console.error("Error creating Zoom meeting:", error.response);
     throw error;
   }
 }

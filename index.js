@@ -6,7 +6,7 @@ const createZoomMeeting = require("./zoomClient");
 require("dotenv").config();
 
 const app = express();
-const port = 3003;
+const port = 80;
 
 // Kintone用
 const KINTONE_API_URL = process.env.KINTONE_API_URL;
@@ -108,11 +108,13 @@ async function bookingZoomMeeting(
       timezone: timeZone,
       pre_schedule: true,
     };
+    const meetingConfigJson = JSON.stringify(meetingConfig);
 
+    // ZOOM APIと連携する。
     const meeting = await createZoomMeeting(
       ZOOM_API_KEY,
       ZOOM_API_SECRET,
-      meetingConfig
+      meetingConfigJson
     );
     console.log("トピック:", meeting.topic);
     console.log("開始時間:", meeting.start_time);
