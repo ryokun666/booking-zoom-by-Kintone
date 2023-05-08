@@ -58,16 +58,18 @@ function getZoomData(data) {
 function getUserData(data) {
   const userName = data.records[0]["担当者"].value[0].name ?? "なし";
   const customerName = data.records[0]["顧客名"].value[0] ?? "お客";
-  const bookingStartDatea = data.records[0]["開始日時"].value;
-  const bookingStartDate = new Date(bookingStartDatea);
-
-  const bookingEndDate = data.records[0]["終了日時"].value;
+  const bookingStartDate = convertUtcToJapanTimeDate(
+    data.records[0]["開始日時"].value
+  );
+  const bookingEndDate = convertUtcToJapanTimeDate(
+    data.records[0]["終了日時"].value
+  );
 
   console.log("-------------------------");
   console.log("担当営業：" + userName);
   console.log("打ち合わせ先：" + customerName);
-  console.log("開始時間：" + convertToJapanTime(bookingStartDate));
-  console.log("終了時間：" + convertToJapanTime(bookingEndDate));
+  console.log("開始時間：" + bookingStartDate);
+  console.log("終了時間：" + bookingEndDate);
   console.log("-------------------------");
   const bookingData = {
     userName, // 担当営業
@@ -104,7 +106,6 @@ async function bookingZoomMeeting(
     { timeZone: timeZone }
   );
 
-  console.log(timeZoneDate);
   try {
     const meetingConfig = {
       topic: `${bookingData.customerName}様お打ち合わせ(${bookingData.userName})`,
@@ -115,10 +116,14 @@ async function bookingZoomMeeting(
       pre_schedule: true,
     };
 
-    const meeting = await createZoomMeeting(ZOOM_API_KEY, ZOOM_API_SECRET, meetingConfig);
+    const meeting = await createZoomMeeting(
+      ZOOM_API_KEY,
+      ZOOM_API_SECRET,
+      meetingConfig
+    );
     console.log("トピック:", meeting.topic);
-    console.log("開始時間:", convertToJapanTime(meeting.start_time));
-    console.log("終了時間:", convertToJapanTime(bookingEndDate));
+    console.log("開始時間:", meeting.start_time);
+    // console.log("終了時間:", bookingEndDate);
     console.log("会議時間:", duration + "分");
     console.log(
       "タイムゾーン:",
@@ -133,8 +138,7 @@ async function bookingZoomMeeting(
   }
 }
 
-// 日本時間フォーマット用
-function convertToJapanTime(utcDateString) {
+function convertUtcToJapanTimeDate(utcDateString) {
   // 日本のタイムゾーンを指定
   const timeZone = "Asia/Tokyo";
 
@@ -144,18 +148,12 @@ function convertToJapanTime(utcDateString) {
   const japanDate = utcToZonedTime(utcDate, timeZone);
 
   // 日付を文字列にフォーマット
-  const formattedDate = format(japanDate, "yyyy-MM-dd-HH:mm", {
+  const formattedDate = format(japanDate, "yyyy-MM-dd'T'HH:mm:ss", {
     timeZone: timeZone,
   });
 
+  // 文字列を Date オブジェクトに変換して返す
   return formattedDate;
-}
-
-// ZOOM用に時間フォーマット修正
-function convertUtcToTimeZoneDate(utcDateString, timeZone) {
-  const utcDate = new Date(utcDateString);
-  const timeZoneDate = dateFnsTz.utcToZonedTime(utcDate, timeZone);
-  return timeZoneDate;
 }
 
 app.get("/", async (req, res) => {
@@ -171,9 +169,14 @@ app.get("/", async (req, res) => {
 
 app.post("/webhook", async (req, res) => {
   const response = await getKintone(KINTONE_API_URL, KINTONE_API_TOKEN);
-  console.log(response.data);
-
-  res.sendStatus(200);
+  if (response) {
+    res.send(response.data);
+    res.sendStatus(200);
+  } else {
+    res
+      .status(500)
+      .send("エラー: Kintone APIからデータを取得出来ませんでした。");
+  }
 });
 
 app.listen(port, () => {
