@@ -77,9 +77,7 @@ function getUserData(data) {
     bookingStartDate, // 開始時間
     bookingEndDate, // 終了時間
   };
-
   bookingZoomMeeting(bookingStartDate, bookingEndDate, bookingData);
-  console.log("bookingStartDate:", bookingStartDate);
 
   return;
 }
@@ -100,17 +98,12 @@ async function bookingZoomMeeting(
 ) {
   const duration = calculateDuration(bookingStartDate, bookingEndDate);
   const timeZone = "Asia/Tokyo";
-  const timeZoneDate = format(
-    zonedTimeToUtc(bookingStartDate, timeZone),
-    "yyyy-MM-dd'T'HH:mm:ss'Z'",
-    { timeZone: timeZone }
-  );
 
   try {
     const meetingConfig = {
       topic: `${bookingData.customerName}様お打ち合わせ(${bookingData.userName})`,
       type: 2,
-      start_time: timeZoneDate,
+      start_time: bookingStartDate,
       duration: duration,
       timezone: timeZone,
       pre_schedule: true,
