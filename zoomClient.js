@@ -17,6 +17,7 @@ async function createZoomMeeting(apiKey, apiSecret, meetingConfig) {
 
     return response.data;
   } catch (error) {
+    console.log("ZOOM API連携時にエラーが発生しました。");
     throw error;
   }
 }

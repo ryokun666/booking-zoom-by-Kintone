@@ -8,13 +8,6 @@ require("dotenv").config();
 const app = express();
 const port = 3003;
 
-// Kintone用
-const KINTONE_API_URL = "https://dwp33.cybozu.com/k/v1/records.json";
-const KINTONE_API_TOKEN = "gn5iRmkA2ENCmNua99k7GF1ZYjXYtFj6AGF8sT5g";
-// ZOOM用
-const ZOOM_API_KEY = "hSilPVNpRvSqCcaIy1-Ruw";
-const ZOOM_API_SECRET = "mb3mapc8U7Y2LEE0HEOxwoFZXry2bZF45CX9";
-
 // JSONファイル整形
 app.use(bodyParser.json());
 
