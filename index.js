@@ -8,6 +8,13 @@ require("dotenv").config();
 const app = express();
 const port = 3003;
 
+// Kintone用
+const KINTONE_API_URL = process.env.KINTONE_API_URL;
+const KINTONE_API_TOKEN = process.env.KINTONE_API_TOKEN;
+// ZOOM用
+const ZOOM_API_KEY = process.env.ZOOM_API_KEY;
+const ZOOM_API_SECRET = process.env.ZOOM_API_SECRET;
+
 // JSONファイル整形
 app.use(bodyParser.json());
 
