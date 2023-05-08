@@ -178,7 +178,7 @@ app.post("/webhook", async (req, res) => {
   try {
     const response = await getKintone(KINTONE_API_URL, KINTONE_API_TOKEN);
     if (response) {
-      res.status(200).json(response.data).send("成功: ZOOM予約完了！");
+      res.status(200).send("成功: ZOOM予約完了！");
     } else {
       res
         .status(500)
