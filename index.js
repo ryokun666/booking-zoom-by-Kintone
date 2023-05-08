@@ -16,6 +16,38 @@ const userId = "r.morie@gulliver.co.jp";
 
 app.use(bodyParser.json());
 
+function generateToken(apiKey, apiSecret) {
+  const payload = {
+    iss: apiKey,
+    exp: new Date().getTime() + 60 * 1000,
+  };
+
+  return jwt.sign(payload, apiSecret);
+}
+
+async function createZoomMeeting(apiKey, apiSecret, meetingConfigJson) {
+  const token = generateToken(apiKey, apiSecret);
+
+  const config = {
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${token}`,
+    },
+  };
+
+  try {
+    const response = await axios.post(
+      `https://api.zoom.us/v2/users/${userId}/meetings`,
+      meetingConfigJson,
+      config
+    );
+    return response.data;
+  } catch (error) {
+    console.error("Error creating Zoom meeting:", error.response);
+    throw error;
+  }
+}
+
 async function getKintone(url, apiToken) {
   const headers = {
     "X-Cybozu-API-Token": apiToken,
@@ -113,7 +145,7 @@ async function bookingZoomMeeting(
     console.log("会議URL:", meeting.join_url);
     console.log("ミーティングID:", meeting.id);
     console.log("パスコード:", meeting.password);
-    console.log(meeting);
+    // console.log(meeting);
   } catch (error) {
     console.error("Error:", error);
   }
@@ -146,7 +178,7 @@ app.post("/webhook", async (req, res) => {
   try {
     const response = await getKintone(KINTONE_API_URL, KINTONE_API_TOKEN);
     if (response) {
-      res.status(200).json(response.data);
+      res.status(200).json(response.data).send("成功: ZOOM予約完了！");
     } else {
       res
         .status(500)
@@ -161,35 +193,3 @@ app.post("/webhook", async (req, res) => {
 app.listen(port, () => {
   console.log(`サーバー起動🚀：${port}`);
 });
-
-function generateToken(apiKey, apiSecret) {
-  const payload = {
-    iss: apiKey,
-    exp: new Date().getTime() + 60 * 1000,
-  };
-
-  return jwt.sign(payload, apiSecret);
-}
-
-async function createZoomMeeting(apiKey, apiSecret, meetingConfigJson) {
-  const token = generateToken(apiKey, apiSecret);
-
-  const config = {
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${token}`,
-    },
-  };
-
-  try {
-    const response = await axios.post(
-      `https://api.zoom.us/v2/users/${userId}/meetings`,
-      meetingConfigJson,
-      config
-    );
-    return response.data;
-  } catch (error) {
-    console.error("Error creating Zoom meeting:", error.response);
-    throw error;
-  }
-}
