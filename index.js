@@ -16,7 +16,7 @@ const userId = "r.morie@gulliver.co.jp";
 
 app.use(bodyParser.json());
 
-function generateToken(apiKey, apiSecret) {
+async function generateToken(apiKey, apiSecret) {
   const payload = {
     iss: apiKey,
     exp: new Date().getTime() + 60 * 1000,
@@ -26,7 +26,7 @@ function generateToken(apiKey, apiSecret) {
 }
 
 async function createZoomMeeting(apiKey, apiSecret, meetingConfigJson) {
-  const token = generateToken(apiKey, apiSecret);
+  const token = await generateToken(apiKey, apiSecret);
 
   const config = {
     headers: {
@@ -43,7 +43,7 @@ async function createZoomMeeting(apiKey, apiSecret, meetingConfigJson) {
     );
     return response.data;
   } catch (error) {
-    console.error("Error creating Zoom meeting:", error.response);
+    console.error("Error creating Zoom meeting:", error.response.data);
     throw error;
   }
 }
@@ -59,35 +59,34 @@ async function getKintone(url, apiToken) {
   };
   try {
     const response = await axios.get(url, { headers, params });
-    getZoomData(response.data);
     return response;
   } catch (error) {
     console.error(error);
   }
 }
 
-function getZoomData(data) {
+async function getZoomData(data) {
   try {
-    const zoomAccountValue = data.records[0]["Zoomアカウント"].value;
-    if (!zoomAccountValue) {
-      return;
-    }
-    getUserData(data);
+    const zoomAccountValue = data.records[0]["Zoomアカウント"].value
+      ? data
+      : "";
+    return zoomAccountValue;
   } catch (error) {
     console.error(error);
   }
 }
 
-function getUserData(data) {
+async function getUserData(data) {
   const userName = data.records[0]["担当者"].value[0].name ?? "なし";
   const customerName = data.records[0]["顧客名"].value[0] ?? "お客";
-  const bookingStartDate = convertUtcToJapanTimeDate(
+  const bookingStartDate = await convertUtcToJapanTimeDate(
     data.records[0]["開始日時"].value
   );
-  const bookingEndDate = convertUtcToJapanTimeDate(
+  const bookingEndDate = await convertUtcToJapanTimeDate(
     data.records[0]["終了日時"].value
   );
-
+  console.log("");
+  console.log("~KintoneでのZOOM予約依頼~");
   console.log("-------------------------");
   console.log("担当営業：" + userName);
   console.log("打ち合わせ先：" + customerName);
@@ -100,7 +99,50 @@ function getUserData(data) {
     bookingStartDate,
     bookingEndDate,
   };
-  bookingZoomMeeting(bookingStartDate, bookingEndDate, bookingData);
+  const data1 = await bookingZoomMeeting(
+    bookingStartDate,
+    bookingEndDate,
+    bookingData
+  );
+  return data1;
+}
+
+// 既存ミーティングと新規追加ミーティングの時間帯が重複していないかを確認する。
+function hasOverlappingMeetings(existingMeetings, startTime, endTime) {
+  const start = new Date(startTime);
+  const end = new Date(endTime);
+
+  return existingMeetings.some((meeting) => {
+    const meetingStart = new Date(meeting.start_time);
+    const meetingEnd = new Date(meeting.start_time);
+    meetingEnd.setMinutes(meetingEnd.getMinutes() + meeting.duration);
+
+    return (
+      (start >= meetingStart && start < meetingEnd) ||
+      (end > meetingStart && end <= meetingEnd)
+    );
+  });
+}
+
+async function listMeetings(apiKey, apiSecret, userId) {
+  const token = await generateToken(apiKey, apiSecret);
+  const config = {
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${token}`,
+    },
+  };
+
+  try {
+    const response = await axios.get(
+      `https://api.zoom.us/v2/users/${userId}/meetings`,
+      config
+    );
+    return response.data.meetings;
+  } catch (error) {
+    console.error("Error listing Zoom meetings:", error.response.data);
+    throw error;
+  }
 }
 
 function calculateDuration(start, end) {
@@ -126,32 +168,62 @@ async function bookingZoomMeeting(
     duration: duration,
     timezone: timeZone,
   };
-  const meetingConfigJson = JSON.stringify(meetingConfig);
 
   try {
-    const meeting = await createZoomMeeting(
+    const existingMeetings = await listMeetings(
       ZOOM_API_KEY,
       ZOOM_API_SECRET,
-      meetingConfigJson
+      userId
     );
 
-    console.log("トピック:", meeting.topic);
-    console.log("開始時間:", meeting.start_time);
-    console.log("会議時間:", duration + "分");
-    console.log(
-      "タイムゾーン:",
-      meeting.timezone === "Asia/Tokyo" ? "大阪、札幌、東京" : meeting.timezone
-    );
-    console.log("会議URL:", meeting.join_url);
-    console.log("ミーティングID:", meeting.id);
-    console.log("パスコード:", meeting.password);
-    // console.log(meeting);
+    if (
+      !hasOverlappingMeetings(
+        existingMeetings,
+        bookingStartDate,
+        bookingEndDate
+      )
+    ) {
+      const meeting = await createZoomMeeting(
+        ZOOM_API_KEY,
+        ZOOM_API_SECRET,
+        meetingConfig
+      );
+
+      console.log("");
+      console.log("~ZOOM予約内容~");
+      console.log("-------------------------");
+      console.log("トピック:", meeting.topic);
+      console.log("開始時間:", meeting.start_time);
+      console.log("会議時間:", duration + "分");
+      console.log(
+        "タイムゾーン:",
+        meeting.timezone === "Asia/Tokyo"
+          ? "大阪、札幌、東京"
+          : meeting.timezone
+      );
+      console.log("会議URL:", meeting.join_url);
+      console.log("ミーティングID:", meeting.id);
+      console.log("パスコード:", meeting.password);
+      console.log("-------------------------");
+
+      return meeting;
+    } else {
+      return null;
+    }
   } catch (error) {
     console.error("Error:", error);
   }
 }
 
-function convertUtcToJapanTimeDate(utcDateString) {
+async function convertUtcToJapanTimeDate(utcDateString) {
+  // 文字列でない場合、エラーメッセージを返す
+  if (typeof utcDateString !== "string") {
+    console.error(
+      "Error: フォーマット変換関数の引数には文字列を入れてください。"
+    );
+    return;
+  }
+
   const timeZone = "Asia/Tokyo";
   const utcDate = zonedTimeToUtc(utcDateString, timeZone);
   const japanDate = utcToZonedTime(utcDate, timeZone);
@@ -159,30 +231,51 @@ function convertUtcToJapanTimeDate(utcDateString) {
   const formattedDate = format(japanDate, "yyyy-MM-dd'T'HH:mm:ss", {
     timeZone: timeZone,
   });
-
   return formattedDate;
 }
 
-app.get("/", async (req, res) => {
-  const response = await getKintone(KINTONE_API_URL, KINTONE_API_TOKEN);
-  if (response) {
-    res.send(response.data);
-  } else {
-    res
-      .status(500)
-      .send("エラー: Kintone APIからデータを取得出来ませんでした。");
-  }
-});
+// ローカル環境テスト用
+if (process.env.NODE_ENV !== "production") {
+  app.get("/", async (req, res) => {
+    try {
+      const response = await getKintone(KINTONE_API_URL, KINTONE_API_TOKEN);
+      const zoomData = await getZoomData(response.data);
+
+      if (zoomData) {
+        const bookingResult = await getUserData(zoomData);
+        if (!bookingResult) {
+          console.log(
+            "🚨既存のミーティングと時間帯が重複しているためZOOM会議予約処理を中止しました。"
+          );
+        } else {
+          console.log("🚀ZOOMの会議予約が完了しました！😀");
+        }
+        res.status(200).json(response.data);
+      } else {
+        console.log(new Date().toLocaleString({ timeZone: "Asia/Tokyo" }));
+        console.log("KintoneからZOOMに関する情報はありませんでした。");
+        res.status(200).json(response.data);
+      }
+    } catch (error) {
+      console.error(error);
+      res.status(500).send("エラー: サーバー内で問題が発生しました。");
+    }
+  });
+}
 
 app.post("/webhook", async (req, res) => {
   try {
     const response = await getKintone(KINTONE_API_URL, KINTONE_API_TOKEN);
-    if (response) {
+    const zoomData = await getZoomData(response.data);
+
+    if (zoomData) {
+      await getUserData(zoomData);
+      console.log("ZOOMの会議予約が完了しました！😀");
       res.status(200).json(response.data);
     } else {
-      res
-        .status(500)
-        .send("エラー: Kintone APIからデータを取得出来ませんでした。");
+      console.log(new Date().toLocaleString({ timeZone: "Asia/Tokyo" }));
+      console.log("KintoneからZOOMに関する情報はありませんでした。");
+      res.status(200).json(response.data);
     }
   } catch (error) {
     console.error(error);
